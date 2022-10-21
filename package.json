@@ -27,7 +27,7 @@
     "fleet"
   ],
   "scripts": {
-    "init:project": "npm i && npx husky install",
+    "init:project": "npm i && npx husky install && tsc",
     "build:theme": "tsc && node ./dist/src/index.js",
     "lint:eslint": "npx eslint src --fix",
     "lint:prettier": "npx prettier -w src"
